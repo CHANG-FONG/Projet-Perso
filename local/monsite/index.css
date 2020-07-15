@@ -1,0 +1,21 @@
+
+
+li {
+	list-style: none;
+	padding: 20px;
+	color: white;
+	background-color: transparent;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+li:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}

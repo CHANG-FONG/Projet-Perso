@@ -1,0 +1,40 @@
+body{
+	background-image: url(http://www.epsi.fr/wp-content/themes/object23/assets/img/motifs-angle-layout.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+img{
+	width: 5%;
+	margin-left: 60px;
+}
+
+#top{
+	background-color: #271549;
+	padding: 15px;
+}
+
+.header{
+	text-align: center;
+}
+
+.h1{
+	color: white;
+	font-style: italic;
+	font-family: fantasy;
+	letter-spacing: 5px;
+	margin-right: 100px;
+}
+
+#ajoutComm{
+	position: relative;
+	bottom: 45px;
+}
+
+.bila{
+	border-style: solid;
+}
+
+.bil{
+	border-top: solid;
+}

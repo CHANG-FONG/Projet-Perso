@@ -1,0 +1,145 @@
+body {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	font-family: 'Arial';
+}
+
+ul {
+	padding: 0;
+	display: flex;
+	background-color: darkred;
+	width: 100%;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	padding: 20px;
+	color: white;
+	background-color: transparent;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+li:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	color: black;
+}
+
+#header {
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+
+#header img {
+	width: 100%;
+}
+
+
+
+section {
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+}
+
+label, input {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+}
+
+input {
+	background-color: transparent;
+	/*border: 1px solid white;*/
+	border-radius: 7px;
+	margin-left: 20px;
+	padding: 5px 10px;
+}
+
+aside {
+	width: 20%;
+	background-color: darkred;
+	height: 1800px;
+}
+
+main {
+	width: 80%;
+	background-image: url("dvmn2.jpg");
+	background-color: orange;
+	background-repeat: no-repeat;
+	height: 1800px;
+}
+
+.stacks {
+	height: 600px;
+	width: 100%;
+}
+
+.stacks h1 p {
+	background-color: white;
+}
+.blocks {
+	width: 30%;
+	height: 100px;
+}
+
+#aside {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0;
+}
+
+#aside li {
+	list-style: none;
+	padding: 20px;
+	color: white;
+	background-color: transparent;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+#aside li:hover {
+	background-color: white;
+	color: black;
+}
+
+#container {
+	width: 100%;
+	display: flex;
+}
+
+h2 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+input {
+	background: hidden;
+}
+
+nav ul li #myLine {
+	display: none;
+	color: black;
+}
+
+nav ul li #myLine:hover {
+	display: flex;
+
+}

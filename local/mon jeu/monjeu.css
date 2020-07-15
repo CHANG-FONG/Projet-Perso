@@ -1,0 +1,61 @@
+body {
+	background-color: brown;
+	background-image: url(maquette-bateau.jpg);
+	background-repeat: no-repeat;
+	border-image: all; 
+}
+
+.titre span {
+	display: block;
+	margin:0 0 13px auto;
+	font-weight:700;
+	font-size:28px;
+	line-height:26px;
+	text-align:center;
+	color: black;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: block;
+	display: inline;
+	padding: 20px;
+	border-right:1px;
+}
+
+#tete {
+	background-color: white;
+	width: 30%;
+	display: inline-block;
+	column-span: 3px;
+}
+
+#name {
+	color: white;
+}
+
+.entête {
+	background-color: black;
+	box-sizing: all;
+	width: 100%;
+	padding: 9px;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+#gauche {
+	text-align: left;
+	padding: 20px;
+	color: white;
+}
+
+label {
+	color: yellow;
+}
+
